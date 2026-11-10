@@ -38,3 +38,18 @@ def criar_orcamento(dados: SolicitacaoOrcamento):
         "area_com_quebra_10_m2": metragem_total,
         "status": "Em Análise"
     }
+class AgendamentoVisita(BaseModel):
+    orcamento_id: int
+    data_visita: str
+    turno: str  # Manhã ou Tarde
+    endereco: str
+
+
+@app.post("/visitas/")
+def agendar_visita(dados: AgendamentoVisita):
+    return {
+        "mensagem": "Visita técnica confirmada com sucesso!",
+        "data": dados.data_visita,
+        "turno": dados.turno,
+        "status": "Confirmado"
+    }
