@@ -1,4 +1,4 @@
-\# DAJE Atende — MVP de Gestão e Triagem de Orçamentos
+# DAJE Atende — MVP de Gestão e Triagem de Orçamentos
 
 Sistema desenvolvido para a parceira comunitária \*\*DAJE Serviços\*\* (Jardim Tremembé, São Paulo - SP), com foco na formalização do atendimento, cálculo automatizado de margem técnica de perda (+10%) e agendamento ágil de visitas de medição. 
 
